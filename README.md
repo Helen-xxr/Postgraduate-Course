@@ -21,25 +21,25 @@
   * 要求：完成平台环境搭建，跑示例程序
   * 内容
   #### （1） Hadoop生态环境
-    * a.基于Kafka的消息订阅系统
-    * b.基于Sqoop和Flume的数据ETL
-    * c.基于Oozie的流程管理平台
-    * d.Spark环境下非结构化数据的读写
-    * e.基于Spark Mllib机器学习应用实践——分类
-    * f.基于Spark Mllib机器学习应用实践——回归
-    * g.基于Spark Mllib机器学习应用实践——聚类
-    * h.基于Spark Mllib机器学习应用实践——决策树
+    a.基于Kafka的消息订阅系统
+    b.基于Sqoop和Flume的数据ETL
+    c.基于Oozie的流程管理平台
+    d.Spark环境下非结构化数据的读写
+    e.基于Spark Mllib机器学习应用实践——分类
+    f.基于Spark Mllib机器学习应用实践——回归
+    g.基于Spark Mllib机器学习应用实践——聚类
+    h.基于Spark Mllib机器学习应用实践——决策树
   #### （2） Tensorflow：以下题目请参考《Tensorflow实战》
-    * a.简单CNN对MNIST手写体的数字识别
-    * b.AlexNet
-    * c.VGGNet
-    * d.GoogLeNet
-    * e.ResNet
-    * f.LSTM
+    a.简单CNN对MNIST手写体的数字识别
+    b.AlexNet
+    c.VGGNet
+    d.GoogLeNet
+    e.ResNet
+    f.LSTM
   #### （3） Docker和Kubernetes容器集群平台
-    * a.在CentOS或者Ubuntu（虚拟机或者物理机上都可以）上面安装部署Docker和Kubernetes环境
-    * b.下载或者自己手动通过Dockerfile生成ELK (ElasticSearch, Logstash, Kibana) 的Docker镜像，完成日志系统搭建并测试
-    * c.在Kubernetes环境下搭建Tensorflow, 完成(2) 中一个任务
+    a.在CentOS或者Ubuntu（虚拟机或者物理机上都可以）上面安装部署Docker和Kubernetes环境
+    b.下载或者自己手动通过Dockerfile生成ELK (ElasticSearch, Logstash, Kibana) 的Docker镜像，完成日志系统搭建并测试
+    c.在Kubernetes环境下搭建Tensorflow, 完成(2) 中一个任务
 ### 3.应用
   * 目的：训练学生利用平台和算法，完成具体事务。
   * 要求：完成演示Demo
@@ -53,8 +53,8 @@
 
 ## 二、 提交内容
   完成10个学习报告，内容：
-    * 1)8个算法
-    * 2)选择完成1个平台（大学习报告）
-    * 3)公开课学习总结
+    1)8个算法
+    2)选择完成1个平台（大学习报告）
+    3)公开课学习总结
 
   学习报告应包含运行环境说明，数据准备，算法流程或者平台搭建说明，运行效果或结论。
