@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-
 from definition import *
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -11,10 +9,10 @@ import seaborn as sns
 iris = load_iris()
 x = iris.data[:100, :2]
 y = iris.target[:100]  # y in {0, 1}
-feature_names = iris.feature_names[2:]
+feature_names = iris.feature_names[:2]
 
 # 将数据集按一定比例分为训练集和测试集
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=2048)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.5, random_state=2048)
 
 
 # 输出数据集散点分布图
